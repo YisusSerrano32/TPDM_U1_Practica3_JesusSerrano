@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#E9E9E9"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/texto3_1"
+        android:layout_margin="10dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:padding="10dp"
+        android:rowCount="4">
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/a_minuscula" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/a_mayuscula" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/words" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/monstruo1" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/robot" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/monstruo2" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/raton" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/vocabulary" />
+
+    </GridLayout>
+</LinearLayout>
